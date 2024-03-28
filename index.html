@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        
+        <style>
+            body {
+                background-color: white;
+                color: black;
+                padding: 50px;
+                margin: 90px;
+                box-sizing: border-box;
+             }
+        </style>
+    </head>
+    <body>
+        
+        <div id="page-wrap">
+        <div id="header" style="background-color: lightgrey; position: fixed; top: 0; left: 0; z-index: 9999; height: 90px; width: 100%">
+            <div id="nav" style="position: absolute; bottom: 0; left: 0; right: 0; text-align: center;">
+                <a href="#cars">[Cars]</a>
+                <a href="#cereals">[Cereals]</a>
+                <a href="#films">[Films]</a> 
+                <a href="#grocerystores">[Grocery Stores]</a> 
+                <a href="#mutualfunds">[Mutual Funds]</a> 
+                <span style="word-spacing:normal; color:black; font-size:20px;"><--Click a link for fast travel!</span>
+            </div>
+        </div>
+        
+        <div id="page1" style="background-color: lightsalmon;"> 
+            <a name="cars"></a>
+            <div class="page-padding"></div><br><br><br><br>
+            <h3 class="description">Description of cars.csv file visualization:</h3>
+            <p class="para">
+              This stacked bar graph shows the distribution of car manufacturers across three origins, American, European, and Japanese. The vertical axis shows the number of cars made with the horizontal axis representing the different manufacturers.
+              Each bar is color coded to represent one or more of the three origins with Blue as American, Orange as European, and Red as Japanese. It is also sorted in Descending order that way we can see which manufacturers and which origin has the highest number of produced cars.<br><br>
+
+             From this graph we can see that American manufacturers dominate the top 5 positions with the highest number of car productions made by Ford at 53 cars, which is then followed by Chevrolet 48, Plymouth 32, Amc 29, and then Dodge at 28. Japanese car production is the second highest after American with Toyota at 26. 
+             European manufacturing is third in production with their VW producing 23 cars. As can also be seen in the graph, the number of cars made by the manufactuer called Buick is done in two origins, American and European. The majority of these cars from buick are American made, while the minority is European made. Further information about specific cars including their year, horespower, MPG, etc. can be seen in small subsections by hovering over the color coded bar you choose and also selecting different filters from the right side. 
+            </p>
+            <div style="overflow: auto; height: 73%; padding: 0; margin-left: 0px; margin-right: 100px;" class='tableauPlaceholder' id='viz1688766427804' style='position: relative'><noscript><a href='#'><img alt='Cars ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Cars_16887657428400&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Cars_16887657428400&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Cars_16887657428400&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688766427804');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div> <!--END page1-->
+         <br><br>
+        <div id="page2" style="background-color: lightgoldenrodyellow;">
+            <a name="cereals"></a>
+            <div class="page-padding"></div><br><br><br><br>
+            <h3 class="description">Description of cereal.csv file visualization:</h3>
+            <p class="para">
+              This horizontal bar visual provides a comprehensive overview of various cereal brands and their respective calorie contents. The chart presents the cereal brands on the vertical axis for easy read, and to allow for easy comparison of their calories. It is in ascending order to help with identifying the lowest and highest calorie brands, and further information of the brand can be seen by interacting with the chart and also the ability to change the sorting order by either cereal or the calories axis. It is color coded in a Blue range from light to dark blue with light representing fewer calories and dark more calories. <br><br>
+              As can be seen All-Bran with Extra Fiber has the lowest Calories at 50, while Mueslix Crispy Blend has the highest at 160. What the visual also reveals is that the majority of, and often the most commercialized, cereal brands fall within a respectable range of 100 to 110 in terms of calorie content. For example, Quaker Oatmeal has 100 calories, and Cheerios have 110 calories. Based on this information, individuals can make decisions about which type of cereal brand to choose, considering their desired level of healthiness and calorie intake.
+            </p>
+            <div style="overflow: auto; height: 73%; padding: 0; margin-left: 0px; margin-right: 100px;" class='tableauPlaceholder' id='viz1688766604106' style='position: relative'><noscript><a href='#'><img alt='Cereals ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ce&#47;Cereals_16887658148520&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Cereals_16887658148520&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ce&#47;Cereals_16887658148520&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688766604106');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div> <!--End page2-->
+        <br><br>
+        <div id="page3" style="background-color: lightgray;">
+            <a name="films"></a>
+            <div class="page-padding"></div><br><br><br><br>
+            <h3 class="description">Description of film.csv file visualization:</h3>
+            <p class="para">
+               This packed bubbles visual is used to show the relation between popularity of a film versus whether they recieved an award. It is color coded to show the different subjects of film with the first three inner colors being Blue which represents Action, Orange for Comedy, and Red for Drama. The rest are mixed up in the outer circle between Horror, Music, Mystery, Science Fiction, War, and Western with their colors shown in the Legend in the top right of visual. 
+               The size of each singular bubble represents the popularity of a film, with more information about the film like the Actor/Actress, year, etc. visible through interacting with the visual.<br><br>
+               
+               The visual is split into two sections based on whether a film recieved an award. As can be seen from the overwhelming majority of films that are produced, only a small amount win an award. This shows that those wishing to produce a film and want a chance of winning an award should focus in Drama or Comedy since they were the two largest subjects that did. Action, War, and Horror seem to have the lowest chance of winning an Award with only two films for each subject. It also shows that popularity of a film does not dictate whether it will win an award either since there are many popular films that don't.
+            </p>
+            <div style="overflow: auto; height: 73%; padding: 0; margin-left: 0px; margin-right: 100px;" class='tableauPlaceholder' id='viz1688766630083' style='position: relative'><noscript><a href='#'><img alt='Film Popularity vs. Awards ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Films_16887658454590&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Films_16887658454590&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Films_16887658454590&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688766630083');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div> <!--End page3-->
+        <br><br>
+        <div id="page4" style="background-color: lightskyblue;">
+            <a name="grocerystores"></a>
+            <div class="page-padding"></div><br><br><br><br>
+            <h3 class="description">Description of Grocery_Store.csv file visualization:</h3>
+            <p class="para">
+                This treemap visual is comparing the difference in Genders from a grocery store survey. The focus here based from the survey is to see how men and woman differ in their methods of payment at the store. The different payment methods for men and women are color coded with Blue as Cash, Orange as Check, Red as DebitCard, Light Teal for Other, and Green for StoreCard. <br><br>
+                Based on the treemap we can see that for females the largest block is Cash, with Check and StoreCard being the next two highest payment methods they use at the store. The smallest payment method for them is DebitCard and Other forms of payment (No further information of what other could be). For Men the largest is also Cash, but they differ with females in that they prefer to use StoreCard more than Check, and they use even less of DebitCard, and Other. More information about number of people, average age, income, and family size, etc. can be seen further through interaction with the visual. Overall we can see through all the different payment options present the majority of the survey was female due to the visible size of the rectangle compared to the mens.
+                
+            </p>
+            <div style="overflow: auto; height: 73%; padding: 0; margin-left: 0px; margin-right: 100px;" class='tableauPlaceholder' id='viz1688766654359' style='position: relative'><noscript><a href='#'><img alt='Grocery Store  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;GroceryStore_16887658722550&#47;Sheet4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GroceryStore_16887658722550&#47;Sheet4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;GroceryStore_16887658722550&#47;Sheet4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688766654359');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div> <!--End page4-->
+        <br><br>
+        <div id="page5" style="background-color: lightgreen;">
+            <a name="mutualfunds"></a>
+            <div class="page-padding"></div>
+            <h3 class="description">Description of Mutual_funds.csv file visualization:</h3>
+            <p class="para">
+                This side-by-side bar visual is to help show and compare each different category of a mutual fund with their values worth based on three different time spans. The time spans are YTD (Year-to-Date), 5YR, and 10YR which are color coded Orange, Light Teal, and Red respectively. From this we can see which one will be volatile and which one is stable or better off based on their time spans shown. Each category is split into International Stocks, Large Growth, Large Value, Small Growth, and Small Value. The Grand Total is the relative combination of the prior categories based on their three different time span values. 
+                The Net Assets of each Category can be seen from interacting with the bars of their respective category. <br><br>
+
+                From observations we can see that the small growth is the most volitile since the current time of YTD is of negative value compared to its two prior time spans of 5YR and 10YR. The most likely stable or best option category would be the Large Growth since the 5YR from the 10YR increased, and so far the YTD as well has grown even more. The highest net assets are in Large Value which seems to be somewhat stable though the YTD is below both the 5YR and 10YR. In general this helps show which category is either stable, volatile, or growing by placing them side-by-side of one another. We can see the net assets for each category through interacting with the visual, and this can help decide which is of a good option to choose based on their respective time spans.
+            </p>
+            <div style="overflow: auto; height: 73%; padding: 0; margin-left: 0px; margin-right: 100px;" class='tableauPlaceholder' id='viz1688766674322' style='position: relative'><noscript><a href='#'><img alt='MutualFunds  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MutualFunds_16887658993250&#47;Sheet5&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MutualFunds_16887658993250&#47;Sheet5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MutualFunds_16887658993250&#47;Sheet5&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688766674322');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div> <!--End page5-->
+        </div> <!--End of page-wrap-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
+       
+       <style>
+         .center {
+            text-align: center;
+            margin-top: 100px;
+         }
+       </style>
+       <div class="center" style="background-color: lightgrey;">  
+            <a href="#top">Back to top of page</a>
+        </div>
+        <hr>
+    </body>
+</html>
