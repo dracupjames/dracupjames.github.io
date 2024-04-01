@@ -65,6 +65,7 @@ void draw(){
       scorel=scorel+1;
       sx= -2;
       sy= random(-2,2);
+      resetGame();
     }
     else if (x-w/2<0){
       x=width/2;
@@ -72,6 +73,7 @@ void draw(){
       scorer=scorer+1;
       sx = -2;
       sy = random(-2,2);
+      resetGame();
     }     
     if ((y>height-h/2)||(y<0+h/2)){ 
       sy=-sy;   
