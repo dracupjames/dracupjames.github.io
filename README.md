@@ -1,6 +1,6 @@
 # Interactice Project Links for code above #
 ## index.html interactive data ##
-Interactive Data: https://jamesdracupwcu.github.io
+Interactive Data: https://dracupjames.github.io
   * Used Tableau software for interactive visuals
 
 ## Pong game worked on second semester of college ##
